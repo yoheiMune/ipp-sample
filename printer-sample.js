@@ -11,9 +11,10 @@ console.log("installed printers:\n"+util.inspect(printer.getPrinters(), {colors:
 
 // 印刷.
 // https://github.com/tojocky/node-printer/blob/master/examples/printFile.js
+
 printer.printFile({
     filename : 'sample.pdf',
-    printer : 'EPSON_EP_808A_Series',
+    // printer : 'EPSON_EP_808A_Series',
     success : jobId => {
         console.log('Sent to printer with ID:', jobId)
     },
