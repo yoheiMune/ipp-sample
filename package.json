@@ -1,0 +1,22 @@
+{
+  "name": "ipp-sample",
+  "version": "1.0.0",
+  "description": "IPP sample.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoheiMune/ipp-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoheiMune/ipp-sample/issues"
+  },
+  "homepage": "https://github.com/yoheiMune/ipp-sample#readme",
+  "dependencies": {
+    "printer": "^0.2.2"
+  }
+}
